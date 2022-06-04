@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+	width: 100%;
+	height: 160vh;
+	background-image: url("background2.PNG");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: #b8c6db;
+	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+.mainHeader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainHeader nav{
+	width: 650px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+}
+.mainHeader .active{
+    box-sizing: border;
+    border: 4px solid #000;
+    padding: 15px;
+    color: #000;
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: #00FFFF;
+    background-image: linear-gradient(315deg, #00FFFF 0%, #8ddd23 74%);
+    border-radius: 10px;
+}
+.mainHeader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+.mainHeader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+	border: none;
+	background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+</style>
+<body>
+<div class="header">
+	<div class="mainHeader">
+  		<nav>
+  			<a href="index.html">Home</a>
+			<a href="viewallcustomers.html" class="active">View All Customers</a>
+			<a href="moneytransaction.html" >Money Transaction</a>
+		</nav>
+	</div>
+
+	<div class="container">
+  <h2 class="py-3">All Customers</h2>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Account Number</th>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Available Balance</th>
+      </tr>
+    </thead>
+    <tbody>
+	<tr>
+	<td>1</td>
+		<td>Raja Humza Nawaz</td>
+		<td>raja.humza0692@gmail.com</td>
+        <td>100000</td>
+      </tr>
+	  <tr>
+        <td>2</td>
+		<td>Muhammad Shoaib</td>
+		<td>shoaib@gmail.com</td>
+        <td>56665</td>
+      </tr>
+	  <tr>
+        <td>3</td>
+		<td>Haris Ali</td>
+		<td>haris@gmail.com</td>
+        <td>65800</td>
+      </tr>
+	 <tr>
+        <td>4</td>
+		<td>Farooq Baig</td>
+		<td>Farooq@gmail.com</td>
+        <td>90250</td>
+      </tr>
+	  <tr>
+        <td>5</td>
+		<td>Basit Khan</td>
+		<td>basit@gmail.com</td>
+        <td>58740</td>
+      </tr>
+	  <tr>
+        <td>6</td>
+		<td>Zahid Ali</td>
+		<td>zahid@gmail.com</td>
+        <td>58335</td>
+      </tr>
+	  <tr>
+        <td>7</td>
+		<td>Faraz Ali</td>
+		<td>faraz@gmail.com</td>
+        <td>91690</td>
+      </tr>
+	  <tr>
+        <td>8</td>
+		<td>Usama Baig</td>
+		<td>usama@gmail.com</td>
+        <td>58352</td>
+      </tr>
+	  <tr>
+        <td>9</td>
+		<td>Hasan Naseem</td>
+		<td>hasan@gmail.com</td>
+        <td>35210</td>
+      </tr>
+	  <tr>
+        <td>10</td>
+		<td>Naveed Anjum</td>
+		<td>naveed@gmail.com</td>
+        <td>20010</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</body>
+</html>
